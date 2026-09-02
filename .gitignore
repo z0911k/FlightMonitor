@@ -1,0 +1,19 @@
+.venv/
+build/
+dist/
+__pycache__/
+*.py[cod]
+
+# Local state and credentials
+config.json
+prices.db
+prices.db-*
+*.log
+err.txt
+out.txt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

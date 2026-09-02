@@ -1,0 +1,78 @@
+{
+  "passengers": {
+    "adults": 1,
+    "children": 0,
+    "infants_in_seat": 0,
+    "infants_on_lap": 0
+  },
+  "seat": "economy",
+  "currency": "CNY",
+  "language": "en-US",
+  "depart_start": "2026-09-25",
+  "depart_end": "2026-09-26",
+  "return_start": "2026-10-05",
+  "return_end": "2026-10-07",
+  "arrive_home_by": "2026-10-07",
+  "min_trip_days": 5,
+  "max_trip_days": 20,
+  "max_pairs_per_route": 24,
+  "anchor_depart": "2026-09-25",
+  "anchor_return": "2026-10-05",
+  "buffer_days": 2,
+  "routes": [
+    {
+      "origin": "PEK",
+      "dest": "SYD",
+      "label": "北京首都 → 悉尼",
+      "flex": true,
+      "primary": true
+    },
+    {
+      "origin": "PKX",
+      "dest": "SYD",
+      "label": "北京大兴 → 悉尼",
+      "flex": true,
+      "primary": true
+    },
+    {
+      "origin": "TSN",
+      "dest": "SYD",
+      "label": "天津滨海 → 悉尼",
+      "flex": true,
+      "primary": true
+    },
+    {
+      "origin": "PEK",
+      "dest": "CBR",
+      "label": "北京 → 堪培拉(直达联程)",
+      "flex": false,
+      "primary": false
+    }
+  ],
+  "max_stops": 3,
+  "max_total_min": 2400,
+  "hard_min_layover_min": 45,
+  "hard_min_layover_intl_min": 75,
+  "min_layover_min": 90,
+  "warn_layover_intl_min": 120,
+  "min_layover_intl_min": 180,
+  "long_layover_min": 720,
+  "below_trend_pct": 10,
+  "alert_debounce_hours": 12,
+  "redeye_start_hour": 23,
+  "redeye_end_hour": 6,
+  "trend_window_days": 60,
+  "trend_min_samples": 5,
+  "chart_days": 60,
+  "refresh_minutes": 30,
+  "refresh_hours": 3,
+  "request_gap_seconds": 2.0,
+  "max_concurrency": 4,
+  "sound": true,
+  "window_layer": "bottom",
+  "always_on_top": false,
+  "autostart": false,
+  "widget_scale": 1.0,
+  "travelpayouts_token": "",
+  "travelpayouts_currency": "cny"
+}

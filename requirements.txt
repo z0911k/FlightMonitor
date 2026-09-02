@@ -1,0 +1,5 @@
+PySide6>=6.6
+fast-flights>=3.0.2
+typing_extensions>=4.0
+winotify>=1.1.0
+requests>=2.28
